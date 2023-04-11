@@ -1,0 +1,99 @@
+
+/*トップラッパー*/
+.top-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 850px;
+  padding-top: 130px;
+}
+
+.tw-img {
+  height: 400px;
+  width: 800px;
+  background-image: url("../images/topback.png");
+  background-size: cover;
+  background-repeat:  no-repeat;
+  margin-top: -450px;
+  position: absolute;
+
+}
+
+.tw-backshape {
+  background-color: #faebd7;
+  height: 400px;
+  width: 800px;
+  margin-left: 50px;
+}
+
+.tw-txt {
+  position: relative;
+  top: 7vw;
+  left: 28vw;
+  text-align: left;
+
+}
+
+.tw-txt h1 {
+  color:rgb(101, 159, 43);
+  font-weight: normal;
+}
+
+.tw-txt h2 {
+  font-weight: normal;
+  padding-left: 50px;
+}
+
+
+/*detail*/
+.detail-1 img {
+  width: 500px;
+  height: 350px;
+  margin-right: 100px;
+}
+
+.detail-2 img {
+  width: 500px;
+  height: 350px;
+  margin-left: 100px;
+}
+
+.d-item {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 50px auto auto;
+}
+
+.d-title {
+  text-align: center;
+  font-size: 40px;
+  padding: 100px 0;
+}
+
+.details span {
+  color: brown;
+}
+
+.d-txt {
+  margin-top: -30px;
+}
+
+.d-txt h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.d-txt p {
+  font-size: 20px;
+  padding-left: 40px;
+  line-height: 2.5;
+}
+
+.d2-txt a {
+  margin-left: 100px;
+}
+
+
+
+
+

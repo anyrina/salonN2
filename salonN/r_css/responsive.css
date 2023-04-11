@@ -1,0 +1,81 @@
+  /* スマホ向けレイアウト */
+  @media all and (max-width: 660px) {
+    body {
+    }
+  /*ヘッダー*/    
+    .header {
+        margin: 0 auto;
+        width: 190px;
+    }
+
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .header h1 {
+        font-size: 15px;
+    }
+  /*ボタン*/
+    .button {
+        margin: 0 10px;
+    }
+
+    .btn-img {
+        height: 80px;
+        width: 80px;
+    }  
+  /*comcept*/
+    .images {
+        display: block;
+        height: 1250px;
+    }  
+
+    .top {
+     margin: 0 auto;
+     width: 90%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .texts {
+        display: block;
+        position: static;        
+    }
+
+    .text {
+        width: 75%;
+    }
+
+    .txt-main {
+        font-size: 3vw;
+    }
+
+    .txt-title {
+        font-size: 2vh;
+    }
+
+    .txt-1 {
+        position: absolute;
+        top: 45px;
+        left: 40px;
+    }
+
+    .txt-2 {
+        position: absolute;
+        top: 500px;
+        left: 45px;
+    }
+
+    .txt-3 {
+        position: absolute;
+        top: 900px;
+        left: 45px;
+    }
+
+    footer {
+        color: rgb(70, 36, 36);
+    }
+}

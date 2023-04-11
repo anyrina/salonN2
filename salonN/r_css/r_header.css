@@ -1,0 +1,21 @@
+  /* スマホ向けレイアウト */
+  @media all and (max-width: 660px) {
+    header {
+      width: 100%s;
+      margin: 0;
+      display: block;
+    }
+
+    .home_link {
+      width: 220px;
+      text-align: center;
+      margin: 0 auto;
+    } 
+
+    .menu-container {
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+
+  }
