@@ -1,0 +1,34 @@
+@media all and (max-width: 660px) {
+    main {
+        margin-top: -15vw;
+    }  
+
+    .tw_img {
+        width: 100vw;
+    } 
+
+    .tw_txt {
+        top: 50vw;
+        left: 20vw;
+    }
+
+    .details {
+        margin-top: 32vw;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .detail_img {
+        display: none;
+    }
+
+    .detail_1 {
+        height: 100px;
+        background-image: url("images/d1");
+        background-size: cover;
+    }
+
+
+}
