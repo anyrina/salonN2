@@ -1,0 +1,142 @@
+@media all and (max-width: 660px) {
+    main {
+        margin-top: -15vw;
+    }  
+
+    .tw_img {
+        height: 70vw;
+        width: 100vw;
+        margin: 0;
+        background-size: cover;
+    } 
+
+    .tw_txt {
+        top: 45vw;
+        left: 8vw;
+    }
+
+    /*details*/
+    .d_item h2 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .d_txt {
+        margin: 0 auto;
+        width: 90vw;
+    }
+
+    .d_info {
+        width: 90vw;
+    }
+
+    .d_info p {
+        line-height: 3em;
+        letter-spacing: 0.2em;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .detail_img {
+        display: none;
+    }
+
+    /*concept*/
+    .detail_1 {
+        height: 230px;
+        background-image: url("../../images/d1.png");
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+
+    .d1_txt {
+        position: relative;
+    }
+
+    .d1_txt_back {
+        position: absolute;
+        top: 15px;
+        left: -1.5vw;
+        background-color: white;
+        width: 93vw;
+        height: 200px;
+        opacity: 0.8;
+    }
+
+    .d1_txt h2 {
+        position: absolute;
+        width: 90vw;
+        top: 10vw;
+    }
+
+    .d1_info {
+        position: absolute;
+        top: 20vw;
+    }
+
+    /*campaign*/
+    .detail_2 {
+        height: 230px;
+        background-image: url("../../images/d2.png");
+        background-size: cover;
+    }
+
+    .d2_txt {
+        position: relative;
+    }
+
+    .d2_txt_back {
+        position: absolute;
+        top: 15px;
+        left: -1.5vw;
+        background-color: white;
+        width: 93vw;
+        height: 200px;
+        opacity: 0.8;
+    }
+
+    .d2_txt h2 {
+        position: absolute;
+        width: 90vw;
+        top: 10vw;
+    }
+
+    .d2_info {
+        position: absolute;
+        top: 20vw;
+    }
+
+    /*contact*/
+    .detail_3 {
+        height: 55vw;
+    }
+    .d3_txt h2 {
+        width: 90vw;
+        font-size: 18px;
+        position: absolute;
+        top: 5vw;
+        z-index: 222;
+    }
+
+    .d_info_3 {
+        position: absolute;
+        z-index: 222;
+        top: 18vw;
+    }
+
+    .d_info_3 p {
+        text-align: left;
+        letter-spacing: 0.2em;
+    }
+
+    .d_3_sqare {
+        width: 100vw;
+        height: 50vw;
+        background-image: url("../../images/contact.png");
+        background-size: cover;
+        opacity: 0.2;
+    }
+
+}
