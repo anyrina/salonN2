@@ -1,0 +1,81 @@
+* {
+    text-decoration: none;
+  }
+/*header border*/
+.menu_header0 {
+  border-bottom: solid 0.36vw #816e6e;
+}
+  
+/*メイン*/ 
+main {
+  margin-top: -3.29vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+    margin: 3.66vw 0;
+}
+
+.flex {
+    display: flex;
+    justify-content:space-between;
+}
+
+.menu-btn {
+    text-align: center;
+}
+
+
+/*メニュー内容*/
+.table_menu {
+  width: 31.4vw;
+  margin: 2.19vw 0;
+}
+
+.table_menu th {
+  width: 21.96vw;
+  color:rgb(140, 116, 73);
+  padding-bottom: 1.09vw;
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+  padding-top: 2.93vw;
+}
+
+.plice {
+  text-align: right;
+}
+
+/*フェイス*/
+.face_plices {
+  height: 51.3vw;
+  background-image: url("../images/mLabel2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.fp-tables {
+  margin: 0 9.5vw;
+}
+
+.bp_tables {
+  margin: 0 9.5vw;
+}
+
+.revi_info {
+  width: 27vw;
+  margin: 2.2vw 0;
+}
+/*ボディー*/
+.body_plices {
+  height: 36.6vw;
+  background-image: url("../images/mLabel1.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: -3.66vw;
+}
