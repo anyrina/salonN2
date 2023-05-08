@@ -1,4 +1,8 @@
 @media all and (max-width: 660px) {
+    * p {
+        font-size: 10px;
+    }
+    
     main {
         margin-top: -15vw;
     }  
