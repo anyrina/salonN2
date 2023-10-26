@@ -1,0 +1,551 @@
+p {
+    letter-spacing: 0.1em;
+}
+h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #8f8681;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a67f78;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+/*header*/
+@font-face {
+  font-family: myfont;
+  src: url("../font/Tangerine-Regular.ttf");
+}
+
+header {
+    height: 70px;
+    padding: 0 30px;
+}
+
+.logo {
+    color: #8f8681;
+    font-family: myfont;
+    font-size: 50px;
+}
+
+.header_menu {
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav {
+    display: none;
+}
+
+/*main*/
+main {
+    background-color: #e1dcd9;
+}
+
+/*topWrapper*/
+#top_topWrapper  {
+    position: relative;
+    height: 500px;
+    background-image: url("../images/img_topWrapper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right -50px;
+}
+
+/*section*/
+.top section {
+    padding-bottom: 50px;
+}
+.section_title {
+    text-align: center;  
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 2.5em;
+    padding: 50px 0;
+}
+
+.section_title span {
+    font-size: 40px;
+    border-bottom: solid 5px #a67f78;
+    padding-bottom: 5px;
+}
+
+/*instagram*/
+.splide__slide img {
+    height: auto;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.splide__slide p {
+    text-align: center;
+}
+
+/*consept*/
+.concept_item {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-image: url("../images/img_concept.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.concept_txt {
+    position: relative;
+    width: 800px;
+    text-align: center;
+    line-height: 3em;
+    padding: 30px 0;
+    margin: 0 auto;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+.concept_txt p {
+    font-size: 18px;
+}
+
+.concept_txt::before {
+    content: "";
+    position: absolute;
+    width: 650px;
+    height: 100%;
+    top: 0;
+    left: 75px;
+    background-color: white;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/*menu*/
+.tm_table {
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.tm_table table {
+    position: relative;
+    width: 450px;
+    padding-bottom: 30px;
+    z-index: 1;
+}
+
+.tm_table caption {
+    padding-top: 30px;
+}
+
+.tm_table table::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.tm_table th {
+    width: 70%;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.tm_table td {
+    text-align: right;
+    padding-right: 30px;
+    line-height: 2em;
+}
+
+
+/*reserve*/
+.tr_item {
+    position: relative;
+    padding: 50px;
+    text-align: center;
+    background-image: url("../images/img_reserve.png");
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.tr_item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.tr_item p {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.tr_item a {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#top_menu a {
+    display: block;
+    width: 133px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/*character*/
+.tc_list {
+    justify-content: space-around;
+    line-height: 2em;
+    margin: 0 auto;  
+}
+
+.tc_list h4 {
+    color: #32435f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tc_list li {
+    width: 350px;
+    padding: 30px  25px;
+}
+
+.tc_li1,.tc_li2,.tc_li3 {
+    position: relative;
+    z-index: 1;
+}
+
+.tc_li1::before,.tc_li2::before,.tc_li3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.tc_li1::before {
+    background-image: url("../images/top2.png");
+}
+
+.tc_li2::before {
+    background-image: url("../images/top3.png");
+}
+
+.tc_li3::before {
+    background-image: url("../images/d2.png");
+}
+
+/*greeting*/
+.tg_item {
+    width: 1000px;
+    justify-content: space-around;
+    line-height: 2em;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.tg_item p {
+    width: 40%;
+}
+
+.tg_item img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/*FAQ*/
+.tf_list {
+    width: 900px;
+    margin: 0 auto;
+}
+.tf_list li {
+    width: 900px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.faq_Q {    
+    background-color: #32435f;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.faq_A {
+    background-color: white;
+    color: #32435f;
+    border: solid 2px #32435f;
+    margin-bottom: 10px;
+}
+
+.tr_2 {
+    padding-bottom: 0;
+}
+
+/*salon*/
+.ts_item table {
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.ts_item th,.ts_item td {
+    border-bottom: 2px solid #a67f78;
+    padding: 20px 30px;
+    text-align: left;      
+}
+
+.ts_item iframe {
+    display: block;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+/***** menu *****/
+.menu section {
+    width: 50vw;
+    padding-bottom: 30px;
+}
+
+.menu_face {
+    background-image: url("../images/img_menuBack1.png");
+    background-size: cover;
+}
+
+.menu_body {
+    background-image: url("../images/img_menuBack2.png");
+    background-size: cover;
+}
+
+.menu h2 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.bottom {
+    padding-bottom: 30px;
+}
+
+.menu dt,.menu dd {
+    display: inline-block;
+}
+
+.menu dl {
+    width: 90%;
+    line-height: 2em;
+    margin: 0 auto;
+}
+
+.menu dt {
+    width: 40%;
+}
+
+.color_brown {
+    font-weight: bold;
+}
+
+.menu dd {
+    text-align: right;
+}
+
+.dd1 {
+    width: 40%;
+}
+
+.dd2 {
+    width: 20%;
+}
+
+.return {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+@media all and (max-width: 660px) {
+    /*header*/
+    .header_menu {
+        display: none;
+    }
+    
+    .header_homeLink {
+        margin: 0 auto;
+    }
+
+    /*topWrapper*/
+    #top_topWrapper {
+        height: 300px;
+        background-position: right top;
+    }
+
+    /*section*/
+    .section_title {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .section_title span {
+        font-size: 20px;
+    }
+
+    /*instagramu*/
+    .splide__slide img {
+        width: 40vw;
+    }
+
+    /*concept*/
+    .concept_item {
+        width: 95vw;
+        padding: 0;
+    }
+
+    .concept_txt {
+        width: 100vw;
+        text-align: left;
+        padding: 0;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+
+    .concept_txt::before {
+        width: 100vw;
+        height: 128.5vw;
+        left: 0;
+    }
+
+    .concept_txt h4 {
+        text-align: center;
+    }
+
+    .concept_txt p {
+        padding: 0 20px;
+    }
+
+    /*menu*/
+    .tm_table {
+        display: block;
+        width: 100vw;
+    }
+
+    .tm_table table {
+        width: 100vw;
+    }
+
+    .tm_table th {
+        padding-left: 10px;
+    }
+
+    .tm_table td {
+        padding-right: 10px;
+    }
+
+    /*character*/
+    .tc_list {
+        display: block;
+    }
+
+    .tc_list li {
+        width: 100vw;
+    }
+
+    /*greeting*/
+    .tg_item {
+        display: block;
+        width: 100vw;
+    }
+
+    .tg_item p {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    /*FAQ*/
+    .tf_list {
+        width: 100vw;
+    }
+
+    .tf_list li {
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    /*salon*/
+    .ts_item table {
+        width: 95vw;
+    }
+
+    .ts_item th {
+        width: 30%;
+        padding: 10px 0;
+    }
+
+    .ts_item td {
+        padding: 10px 0;
+    }
+
+    .ts_item iframe {
+        width: 100vw;
+    }
+
+    /***** menu *****/
+    .menu {
+        display: block;
+    }
+
+    .menu section {
+        width: 100vw;
+    }
+
+    .menu dt,.menu dd {
+        font-size: 14px;
+    }
+
+}
